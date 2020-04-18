@@ -1,0 +1,36 @@
+/* components/fivePrices/fivePrices.wxss */
+.five-prices{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.five-prices-item{
+  margin-bottom: 8rpx;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.five-prices-item view{
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 3vw;
+  text-align: left;
+}
+.five-prices-item view:nth-child(1){
+  width: 6vw;
+  color: #dddddd;
+}
+.five-prices-item view:nth-child(2){
+  color: #f00;
+  margin-left: 15rpx;
+}
+.five-prices-item view:nth-child(3){
+  color: #fff;
+  margin-left: 15rpx;
+  padding-right: 3px;
+}
+.divider{
+  margin: 6px 0;
+  width: 100%;
+  height: 1px;
+  background-color: #e64340;
+}

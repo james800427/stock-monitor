@@ -1,0 +1,14 @@
+<!--components/fivePrices/fivePrices.wxml-->
+<view class="five-prices">
+  <view class="five-prices-item"><view>卖5</view><view>{{price}}</view><view>{{hands}}</view></view>
+  <view class="five-prices-item"><view>卖4</view><view>{{price}}</view><view>{{hands}}</view></view>
+  <view class="five-prices-item"><view>卖3</view><view>{{price}}</view><view>{{hands}}</view></view>
+  <view class="five-prices-item"><view>卖2</view><view>{{price}}</view><view>{{hands}}</view></view>
+  <view class="five-prices-item"><view>卖1</view><view>{{price}}</view><view>{{hands}}</view></view>
+  <view class="divider"></view>
+  <view class="five-prices-item"><view>买1</view><view>{{price}}</view><view>{{hands}}</view></view>
+  <view class="five-prices-item"><view>买2</view><view>{{price}}</view><view>{{hands}}</view></view>
+  <view class="five-prices-item"><view>买3</view><view>{{price}}</view><view>{{hands}}</view></view>
+  <view class="five-prices-item"><view>买4</view><view>{{price}}</view><view>{{hands}}</view></view>
+  <view class="five-prices-item"><view>买5</view><view>{{price}}</view><view>{{hands}}</view></view>
+</view>

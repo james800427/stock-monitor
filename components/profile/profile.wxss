@@ -1,0 +1,54 @@
+/* components/profile/profile.wxss */
+.profile{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+}
+button{
+  background-color: #353535;
+  color: #ff6100;
+}
+.user-info{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+.user-info view:nth-child(1){
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  color: #aaa;
+  font-size: 4vw;
+}
+.recommended{
+  flex-grow: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  color: #aaa;
+}
+.stock text{
+  color: #ff6100;
+  margin-left: 3vw;
+}
+.fs3{
+  font-size: 3vw;
+}
+.fs4{
+  font-size: 4vw;
+}
+.stock text:nth-child(1){
+  margin-left: 0;
+}
+.vip{
+  display: flex;
+  flex-flow: row nowrap;
+}
+image{
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50%;
+}
+

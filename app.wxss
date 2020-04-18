@@ -1,0 +1,14 @@
+/**app.wxss**/
+view{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  padding-left: 2px;
+  padding-right: 2px;
+  display: flex;
+  flex-direction: column;
+  background-color: #353535;
+} 

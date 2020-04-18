@@ -1,0 +1,16 @@
+<!--components/news/news.wxml-->
+<view class="news">
+  <swiper autoplay="{{true}}" circular="{{true}}">
+    <block wx:for="{{swiperData}}" wx:key="*this">
+      <swiper-item>
+        <view class="swiper-item">
+          <view class="title">
+            <view>{{item.data}}</view>
+            <view>{{item.title}}</view>
+          </view>
+          <view class="summary">{{item.content}}</view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <profile></profile>
+  <title-bar></title-bar>
+  <view class="index">
+    <view class="left">
+      <canvas id='cvs' type='2d'></canvas>
+      <news class="news"></news>
+    </view>
+    
+    <view class="right">
+      <five-prices class="detail-right"></five-prices>
+    </view>
+  </view>
+  <view class="add"><image class="icon" src="icons/add.png"></image></view>
+</view>

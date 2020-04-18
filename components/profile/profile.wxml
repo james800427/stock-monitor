@@ -1,0 +1,23 @@
+<!--components/profile/profile.wxml-->
+<view class="profile">
+  <button wx:if="{{ !hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" size="mini">授权登陆</button>
+  <block wx:else>
+    <view class="user-info">
+      <view class="nick-name">
+        <image src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text>{{userInfo.nickName}}</text>
+      </view>
+      <view class="recommended">
+        <text class="fs4">今日推荐：</text>
+        <view class="stock" wx:if="{{isVip}}">
+          <view><text class="{{recommended2.length > 0 ? 'fs3' : 'fs4'}}" wx:for="{{recommended1}}">{{item}}</text></view>
+          <view><text class="fs3" wx:for="{{recommended2}}">{{item}}</text></view>
+        </view>
+        <view class="vip" wx:else>
+          <navigator url="/pages/user/user">升级为Vip用户！</navigator>
+          <text>10元/月</text>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

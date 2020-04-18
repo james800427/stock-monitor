@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "profile": "/components/profile/profile",
+    "title-bar": "/components/titleBar/titleBar",
+    "five-prices": "/components/fivePrices/fivePrices",
+    "news": "/components/news/news"
+  }
+}

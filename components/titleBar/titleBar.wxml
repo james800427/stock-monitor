@@ -1,0 +1,41 @@
+<!--components/titleBar/titleBar.wxml-->
+<view class="titlebar">
+  <view class="col">
+    <view>楚天科技</view>
+    <view>300358</view>
+  </view>
+  <view class="col"><image class="icon" src="icons/edit.png"></image></view>
+  <view class="col col3-8">
+    <view>开</view>
+    <view>换</view>
+  </view>
+  <view class="col col3-8">
+    <view>7.73</view>
+    <view>1.79%</view>
+  </view>
+  <view class="col col3-8">
+    <view>昨收</view>
+    <view>昨均</view>
+  </view>
+  <view class="col col3-8">
+    <view>17.5</view>
+    <view>7.90</view>
+  </view>
+  <view class="col col3-8">
+    <view>市净</view>
+    <view>市赢</view>
+  </view>
+  <view class="col col3-8">
+    <view>1.1</view>
+    <view>28</view>
+  </view>
+  <view class="col"><image class="icon" src="icons/expanding.png"></image></view>
+  <view class="col">
+    <view><image class="icon" src="icons/up.png"></image></view>
+    <view><image class="icon" src="icons/down.png"></image></view>
+  </view>
+  <view class="col">
+    <view><image class="icon" src="icons/delete.png"></image></view>
+    <view>删自选</view>
+  </view>
+</view>

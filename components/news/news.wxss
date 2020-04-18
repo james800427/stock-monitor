@@ -1,0 +1,20 @@
+/* components/news/news.wxss */
+.news{
+  color: #f00;
+  font-size: 3vw;
+}
+swiper{
+  height: 14vw;
+}
+.swiper-item{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  display: flex;
+  flex-flow: row nowrap;
+  font-weight: bold
+}
+.title view:nth-child(2){
+  margin-left: 4vw;
+}
